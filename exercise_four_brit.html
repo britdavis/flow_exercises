@@ -22,12 +22,12 @@
         */
 
         //Player One
-        // var score = 193;
-        // var last_play = "Q";
-        // var broom = "handle";
-        // var has_ball = false;
-        // var is_in_tree = false;
-        // var crying = false;
+        var score = 193;
+        var last_play = "Q";
+        var broom = "handle";
+        var has_ball = false;
+        var is_in_tree = false;
+        var crying = false;
         
         
         
@@ -42,12 +42,12 @@
         
         
         //Player Three
-        var score = "f";
-        var last_play = 1.5;
-        var broom = "brush";
-        var has_ball = true;
-        var is_in_tree = false;
-        var crying = true;
+        // var score = "f";
+        // var last_play = 1.5;
+        // var broom = "brush";
+        // var has_ball = true;
+        // var is_in_tree = false;
+        // var crying = true;
         
         
         if (typeof(score) != "number") {
@@ -55,18 +55,38 @@
         }
         console.log(score);
 
-        if (crying = "true") {
+        if (crying == "true") {
                 score = (score - 300);
             } else {
                 score = (score + 50);
         }
         console.log(score);
-        if (last_play = "Q") {
+        if (last_play == "Q") {
                 score = (score - 77);
         }
         console.log(score);
-        if ((typeof(last_play) != "number") && (is_in_tree = "true")) {
+        if ((typeof(last_play) != "number") && (is_in_tree == "true")) {
                 score = (score + 395);
+
+        /* if (is_in_tree && typeof(last_play) !== "number") {
+        } 
+
+        if (!crying && has_ball && !is_in_tree) {
+            score = score * 1.5;
+        }
+
+        misc:
+        score = score + 1;
+        score += 1;
+        score++;
+        ++score;
+
+        but no score+++
+
+        
+
+
+        */
         }
         console.log(score);
         if (broom == "handle") {
@@ -83,7 +103,7 @@
         }
         console.log(score);
         alert(score);
-        alert("1:422, 2:206, 3:1554");
+        alert("1:332, 2:222, 3:2475");
     </script>
 </body>
 </html>
